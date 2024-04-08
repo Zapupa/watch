@@ -3,6 +3,10 @@
   /* max-width: 1176px; */
   height: 100%;
   /* background-color: black; */
+  /* color: #fff; */
+}
+
+.main_page {
   color: #fff;
 }
 
@@ -20,7 +24,6 @@
   text-align: left;
   line-height: 62px;
 
-  border: 1px solid red;
   max-width: 820px;
   /* max-height: 124px; */
 }
@@ -33,7 +36,6 @@
   line-height: 18px;
   letter-spacing: -2%;
   max-width: 300px;
-  border: 1px solid red;
   /* max-height: 124px; */
 }
 
@@ -46,4 +48,13 @@
   margin: 0 auto;
   height: 789px;
   max-width: 1176px;
+}
+
+.imgs {
+  padding-top: 43px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
 }

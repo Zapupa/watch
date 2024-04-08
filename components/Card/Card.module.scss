@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 276px;
+  max-height: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.img {
+  width: 276px;
+  height: 325px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: flex-end;
+}
+
+.title {
+  color: #141414;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 18px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  color: rgba($color: #141414, $alpha: 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 14px;
+}

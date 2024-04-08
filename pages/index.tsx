@@ -7,6 +7,8 @@ import bigImage from "@/public/biImage.png";
 import Slider from "@/components/Slider/Slider";
 const epilogue = Epilogue({ subsets: ["latin"] });
 
+import Card from "@/components/Card/Card";
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -26,7 +28,7 @@ export default function Home() {
             </div>
             <div className={styles.imgs}>
               <div className={styles.slider}>
-                <Slider></Slider>
+                <Slider />
               </div>
               <Image src={bigImage} alt="watch"></Image>
             </div>
