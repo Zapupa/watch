@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.slider {
+  width: 436px;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.arrow:disabled {
+  border: 1px solid rgba($color: #fff, $alpha: 0.5);
+  color: rgba($color: #fff, $alpha: 0.5);
+}
+
+.arrow:hover:not(:disabled) {
+  border: 1px solid rgba($color: #fff, $alpha: 0.8);
+  color: rgba($color: #fff, $alpha: 0.8);
+}
+
+.btns {
+  display: flex;
+  gap: 12px;
+}
+
+.control {
+  width: 436px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.bar {
+  width: 40px;
+  height: 1px;
+  background-color: #fff;
+}
