@@ -7,12 +7,12 @@ import bigImage from "@/public/biImage.png";
 import Slider from "@/components/Slider/Slider";
 const epilogue = Epilogue({ subsets: ["latin"] });
 
-import Card from "@/components/Card/Card";
+import Modal from "@/components/Modal/Modal";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <div className={styles.main_bg}>
+      {/* <div className={styles.main_bg}>
         <div className={styles.main_page}>
           <Header />
           <main className={styles.main}>
@@ -34,7 +34,12 @@ export default function Home() {
             </div>
           </main>
         </div>
-      </div>
+      </div> */}
+      <Modal
+        title="Tube Watch S42 Date Steel With Black Case"
+        price="€395"
+        img={bigImage}
+      ></Modal>
     </div>
   );
 }
