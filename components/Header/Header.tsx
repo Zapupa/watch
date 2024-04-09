@@ -13,19 +13,20 @@ const Header = () => {
       <div className={styles.left}>
         <Image src={logo} alt="thewatchspot" className={styles.logo} />
         <div className={`${styles.navbar} ${epilogue.className}`}>
-          <Link href="#" className={styles.navbar_item}>
+          <Link href="#about" className={styles.navbar_item}>
             About us
           </Link>
-          <Link href="#" className={styles.navbar_item}>
+          <Link href="#catalog" className={styles.navbar_item}>
             Catalog
           </Link>
-          <Link href="#" className={styles.navbar_item}>
+          <Link href="#sale" className={styles.navbar_item}>
             Sale
           </Link>
         </div>
       </div>
-
-      <Button>Get in touch</Button>
+      <div className={styles.btn_wrap}>
+        <Button>Get in touch</Button>
+      </div>
     </div>
   );
 };
